@@ -1,3 +1,5 @@
+import "./Chat.css";
+
 function Chat() {
   return (
     <section className="chat-window">

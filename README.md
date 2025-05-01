@@ -1,12 +1,30 @@
-# React + Vite
+# MyChatBot - Document Summarizer 🤖📄
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](https://placehold.co/1200x400?text=MyChatBot+Document+Summarizer)
 
-Currently, two official plugins are available:
+A smart chatbot that analyzes uploaded documents (PDFs, images) and provides concise summaries using Google Gemini AI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features ✨
 
-## Expanding the ESLint configuration
+- 📁 Upload PDFs or image files (JPG, PNG)
+- 🔍 Automatic document analysis
+- ✍️ AI-powered summarization (130 words or less)
+- ⚡ Fast processing with Google Gemini API
+- � Clean, responsive interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack 🛠️
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+
+- Frontend: React + Vite
+- AI: Google Gemini API
+- State Management: React Hooks
+- Styling: CSS Modules
+
+## Installation 💻
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/my_chat_bot.git
