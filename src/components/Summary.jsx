@@ -17,14 +17,16 @@ function Summary({ file }) {
 
     try {
       const ai = new GoogleGenAI({
-        apiKey: "AIzaSyCzI8hTQgSj4aYNSGYGkyklvYoEnJSMg9o",
+        apiKey: import.meta.env.VITE_GOOGLE_API_KEY,
       });
 
       const result = await ai.models.generateContent({
         model: "gemini-2.0-flash",
         contents: [
-          { text: `Summarize the document in one short paragraph (less than 130 words),
-            Use just plain text with no markdowns or html tags` },
+          {
+            text: `Summarize the document in one short paragraph (less than 130 words),
+            Use just plain text with no markdowns or html tags`,
+          },
           {
             inlineData: {
               mimeType: file.type,

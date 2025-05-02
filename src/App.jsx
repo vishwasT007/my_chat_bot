@@ -15,7 +15,7 @@ function App() {
         ) : (
           <>
             <Summary file={uploadedFile} />
-            <Chat />
+            <Chat file={uploadedFile} />
           </>
         )}
       </main>
